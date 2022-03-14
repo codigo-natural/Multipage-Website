@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Multipage website</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-- Boxicons CSS -->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <!-- SWIPER JS -->
+  <link rel="stylesheet" href="./css/swiper.css" />
+  <style>
+    body {
+      background-color: #181929;
+      background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23282e3a' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    }
+  </style>
+</head>
+
+<body>
+  <nav id="nav">
+    <div class="container nav__container">
+      <a href="index.html">
+        <h4>Code_Nature</h4>
+      </a>
+      <ul class="nav__menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+      <button id="open-menu-btn"><i class="bx bx-menu"></i></button>
+      <button id="close-menu-btn"><i class="bx bx-x"></i></button>
+    </div>
+  </nav>
+
+  <!-- **** END NAVBAR ********* -->
+
+  <header>
+    <div class="container header__container">
+      <div class="header__left">
+        <h1>Grow your skills to andvance your career path</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta
+          quibusdam deleniti quam omnis fugiat voluptas perferendis nobis
+          culpa quas excepturi saepe, ullam dolor harum sequi ad cum illum,
+          quia asperiores?
+        </p>
+        <a href="courses.html" class="btn btn-primary">Get Started</a>
+      </div>
+
+      <div class="header__right">
+        <div class="header__right-image">
+          <img src="./images/Open Doodles - Doggie.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--  ******** END OF HEADER ******* -->
+
+  <section class="categories">
+    <div class="container categories__container">
+      <div class="categories__left">
+        <h1>Categories</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab
+          temporibus maxime eius, quo in nam vero magni perferendis dolores
+          cum blanditiis id nulla, eum maiores dicta optio accusantium enim.
+        </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+
+      <div class="categories__right">
+        <article class="category">
+          <span class="category__icon"><i class="bx bx-globe"></i></span>
+          <h5>Blockchain</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur caramba ipsum dolor what
+            shit ups hell
+          </p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon"><i class="bx bx-palette"></i></span>
+          <h5>Graphic Design</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur caramba ipsum dolor what
+            shit ups hell
+          </p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon"><i class="bx bx-chart"></i></span>
+          <h5>Finance</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur caramba ipsum dolor what
+            shit ups hell
+          </p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon"><i class="bx bxs-wallet"></i></span>
+          <h5>Marketing</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur caramba ipsum dolor what
+            shit ups hell
+          </p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon"><i class="bx bx-music"></i></span>
+          <h5>Music</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur caramba ipsum dolor what
+            shit ups hell
+          </p>
+        </article>
+
+        <article class="category">
+          <span class="category__icon"><i class="bx bxs-shopping-bags"></i></span>
+          <h5>Business</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur caramba ipsum dolor what
+            shit ups hell
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ********* END OF CATEGORIES ******* -->
+
+  <section class="courses">
+    <h2>Our Popular Courses</h2>
+    <div class="container courses__container">
+      <article class="course">
+        <div class="course__image">
+          <img src="./images/animal1.png" alt="" />
+        </div>
+        <div class="course__info">
+          <h4>Responsive Social Media Website UI Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            esse delectus assumenda maxime dolorem rerum consequatur fugiat
+            libero ullam similique atque quaerat ipsam ipsum, rem aspernatur
+            repudiandae nam alias ex?
+          </p>
+          <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </article>
+
+      <article class="course">
+        <div class="course__image">
+          <img src="./images/animal2.png" alt="" />
+        </div>
+        <div class="course__info">
+          <h4>Responsive SmartHome Website Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            esse delectus assumenda maxime dolorem rerum consequatur fugiat
+            libero ullam similique atque quaerat ipsam ipsum, rem aspernatur
+            repudiandae nam alias ex?
+          </p>
+          <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </article>
+
+      <article class="course">
+        <div class="course__image">
+          <img src="./images/ciudad1.png" alt="" />
+        </div>
+        <div class="course__info">
+          <h4>Responsive Admin Dashboard UI Design</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+            esse delectus assumenda maxime dolorem rerum consequatur fugiat
+            libero ullam similique atque quaerat ipsam ipsum, rem aspernatur
+            repudiandae nam alias ex?
+          </p>
+          <a href="courses.html" class="btn btn-primary">Learn More</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ******** END OF COURSES ********** -->
+
+  <section class="faqs">
+    <h2>Frequenly Asked Questions</h2>
+    <div class="container faqs__container">
+      <article class="faq">
+        <div class="faq__icon"><i class="bx bx-plus"></i></div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            dolore voluptate quis, voluptas quas consequuntur maxime magnam
+            veniam voluptatibus enim sequi voluptatum numquam omnis laudantium
+            explicabo mollitia quo tempora debitis!
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon"><i class="bx bx-plus"></i></div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            dolore voluptate quis, voluptas quas consequuntur maxime magnam
+            veniam voluptatibus enim sequi voluptatum numquam omnis laudantium
+            explicabo mollitia quo tempora debitis!
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon"><i class="bx bx-plus"></i></div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            dolore voluptate quis, voluptas quas consequuntur maxime magnam
+            veniam voluptatibus enim sequi voluptatum numquam omnis laudantium
+            explicabo mollitia quo tempora debitis!
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon"><i class="bx bx-plus"></i></div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            dolore voluptate quis, voluptas quas consequuntur maxime magnam
+            veniam voluptatibus enim sequi voluptatum numquam omnis laudantium
+            explicabo mollitia quo tempora debitis!
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon"><i class="bx bx-plus"></i></div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            dolore voluptate quis, voluptas quas consequuntur maxime magnam
+            veniam voluptatibus enim sequi voluptatum numquam omnis laudantium
+            explicabo mollitia quo tempora debitis!
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon"><i class="bx bx-plus"></i></div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            dolore voluptate quis, voluptas quas consequuntur maxime magnam
+            veniam voluptatibus enim sequi voluptatum numquam omnis laudantium
+            explicabo mollitia quo tempora debitis!
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon"><i class="bx bx-plus"></i></div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            dolore voluptate quis, voluptas quas consequuntur maxime magnam
+            veniam voluptatibus enim sequi voluptatum numquam omnis laudantium
+            explicabo mollitia quo tempora debitis!
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon"><i class="bx bx-plus"></i></div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            dolore voluptate quis, voluptas quas consequuntur maxime magnam
+            veniam voluptatibus enim sequi voluptatum numquam omnis laudantium
+            explicabo mollitia quo tempora debitis!
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon"><i class="bx bx-plus"></i></div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            dolore voluptate quis, voluptas quas consequuntur maxime magnam
+            veniam voluptatibus enim sequi voluptatum numquam omnis laudantium
+            explicabo mollitia quo tempora debitis!
+          </p>
+        </div>
+      </article>
+
+      <article class="faq">
+        <div class="faq__icon"><i class="bx bx-plus"></i></div>
+        <div class="question__answer">
+          <h4>How do I know the right courses for me?</h4>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste
+            dolore voluptate quis, voluptas quas consequuntur maxime magnam
+            veniam voluptatibus enim sequi voluptatum numquam omnis laudantium
+            explicabo mollitia quo tempora debitis!
+          </p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ********* END OF FAQs ********** -->
+
+  <section class="container testimonials__container swiper mySwiper">
+    <h2>Students Testimonials</h2>
+    <div class="swiper-wrapper">
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./images/profile-1.jpg" alt="" />
+        </div>
+        <div class="testimonial__info">
+          <h5>Diana Ayi</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+            laborum dolore porro adipisci commodi distinctio jsvhjhe tyrter
+            wyerwterw twqerwtyrtewre trwewqwret.
+          </p>
+        </div>
+      </article>
+
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./images/profile-2.jpg" alt="" />
+        </div>
+        <div class="testimonial__info">
+          <h5>angie conde</h5>
+          <small>Web Developer</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+            laborum dolore porro adipisci commodi distinctio jsvhjhe tyrter
+            wyerwterw twqerwtyrtewre trwewqwret.
+          </p>
+        </div>
+      </article>
+
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./images/profile-3.jpg" alt="" />
+        </div>
+        <div class="testimonial__info">
+          <h5>Edem quist</h5>
+          <small>Graphick</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+            laborum dolore porro adipisci commodi distinctio jsvhjhe tyrter
+            wyerwterw twqerwtyrtewre trwewqwret.
+          </p>
+        </div>
+      </article>
+
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./images/3.jpeg" alt="" />
+        </div>
+        <div class="testimonial__info">
+          <h5>Diana Ayi</h5>
+          <small>Design</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+            laborum dolore porro adipisci commodi distinctio jsvhjhe tyrter
+            wyerwterw twqerwtyrtewre trwewqwret.
+          </p>
+        </div>
+      </article>
+
+      <article class="testimonial swiper-slide">
+        <div class="avatar">
+          <img src="./images/profile-1.jpg" alt="" />
+        </div>
+        <div class="testimonial__info">
+          <h5>Diana Ayi</h5>
+          <small>Student</small>
+        </div>
+        <div class="testimonial__body">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+            laborum dolore porro adipisci commodi distinctio jsvhjhe tyrter
+            wyerwterw twqerwtyrtewre trwewqwret.
+          </p>
+        </div>
+      </article>
+    </div>
+    <div class="swiper-pagination"></div>
+  </section>
+
+  <!-- ********** END OF TESTIMONIAL ***** -->
+
+  <footer>
+    <div class="container footer__container">
+      <div class="footer__1">
+        <a href="index.html" class="footer__logo">
+          <h4>Code_Nature</h4>
+        </a>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
+          minima.
+        </p>
+      </div>
+
+      <div class="footer__2">
+        <h4>Code_Nature</h4>
+        <ul class="permalinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__3">
+        <h4>Primacy</h4>
+        <ul class="privacy">
+          <li><a href="#">Privacity Policity</a></li>
+          <li><a href="#">Terms and conditions</a></li>
+          <li><a href="#">Refund Policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__4">
+        <h4>Contact Us</h4>
+        <div>
+          <p>+01 234 567 8910</p>
+          <p>shakir260Qgmail.com</p>
+        </div>
+
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <small>Copyright &copy; Code_Nature Autodidacta </small>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+
+      // WHEN WINDOW WIDTH IS >= 600PX
+
+      breakpoints: {
+        600: {
+          slidesPerView: 2,
+        },
+      },
+    });
+  </script>
+</body>
+
+</html>
